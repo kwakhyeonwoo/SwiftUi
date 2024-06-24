@@ -1,0 +1,8 @@
+@State - 값의 변화를 감지하는 이벤트 
+
+.onTapGesture{} 탭을 눌렀을 때 어떠한 변화를 줄 것인지 생성하는 메소드 
+
+toggle() - Bool 타입, 값이 true면 false, false면 true로 변환
+
+NavigationLink(destination: ) 
+네비게이션 버튼으로 destination안에 어떠한 값을 넣냐에 따라 다음 네비게이션의 상태 변화 - 만약 메서드를 넣으면 클릭시 해당 메서드로 이동
