@@ -1,1 +1,9 @@
-a
+Hashable를 통해 리스트 배열 생성
+
+Toggle에서 값 바인딩 할 때 $사용 
+
+changedValue를 매개변수로 넣음으로 true, false값 확인 
+
+onAppear(perform: ) - View가 나타날때 해당 코드 로드
+
+extension으로 View부분 확장
