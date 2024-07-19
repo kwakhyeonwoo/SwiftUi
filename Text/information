@@ -1,0 +1,7 @@
+현재 시간 불러오기 텍스트들 간의 간격 관리 
+
+UiKit에서 font변경할때 storyBoard에서 system으로 변경 후 크기, 굵기 조절했으나
+SwiftUi에서 .font(.system(.body, design: .rounded))이런식으로 .system에 접근해 텍스트 크기, 스타일 변경 가능
+
+
+DateFormatter라는 클래스를 상속해서 현재 시간 불러올 수 있음
