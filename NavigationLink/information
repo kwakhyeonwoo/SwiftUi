@@ -1,0 +1,9 @@
+중간에 이미지를 생성하고 모양을 원형으로 바꾸면서 NavigationLink를 통해 해당 버튼을 클릭시 다른 url로 진입하겠다.
+
+resizable()해당 이미지 크기에 맞게 설정한다
+
+edgesIgnoringSafeArea()를 통해 비어있는 공간없이 끝까지 설정하고 싶다
+
+NavigationLink - 버튼 클릭시 이동할 수 있는 메소드
+
+overlay() - 위에 덧붙인다는 개념
