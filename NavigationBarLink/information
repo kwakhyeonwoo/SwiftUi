@@ -1,0 +1,6 @@
+List{} 사용시 forEach()를 통해서 반복 시킴 그때 ()안에 (id: \.self)이런식으로 넣어줘야 함
+forEach에 in이 들어가야 됨 혹은 $0으로 값을 넣어줘야 함
+
+뷰에서 init()을 통해 초기값 설정이 가능 크기를 나누고 싶으면 init(top: , leading: ,bottom: ,trailing: )으로 설정 가능  
+
+Section을 통해 List에서 파트별로 분류 가능 
