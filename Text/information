@@ -5,3 +5,11 @@ SwiftUi에서 .font(.system(.body, design: .rounded))이런식으로 .system에 
 
 
 DateFormatter라는 클래스를 상속해서 현재 날짜 불러올 수 있음
+
+현재 날짜 불러오기
+static let dateFormat : DateFormatter = {
+       let formatter = DateFormatter()
+//        formatter.dateFormat = "YYYY년 M월 d일"
+        formatter.dateStyle = .short
+        return formatter
+    }()
