@@ -1,0 +1,7 @@
+하단부에 TabView 생성하기 
+
+TabView{}를 통해 감싸기만 하면 됨
+
+버튼을 클릭했을 때 보여주는 View를 생성을 하고 
+ex) Text, Image
+바로 밑에 .tabItem{} 을 활용해서 하단부 TabView를 설정할 수 있다
