@@ -13,7 +13,7 @@ class WeatherViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var errorMessage: String?
 
-    private let apiKey = "1c7910489fbfcec171ec96b10d5c1eaa" // Get this from OpenWeatherMap
+    private let apiKey = "Key" // Get this from OpenWeatherMap
     
     func fetchWeather(for city: String) {
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=\(apiKey)&units=metric") else {
